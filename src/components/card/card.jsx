@@ -2,7 +2,7 @@ import './card.css';
 import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
 import { actionCreators } from '../../state/index';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const Card = ({person}) => {
 
